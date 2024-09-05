@@ -54,7 +54,11 @@ class _HomepageState extends State<HomePage> {
                 ),
                 Text(
                   'eat',
-                  style: TextStyle(fontSize: 32),
+                  style: TextStyle(
+                    fontSize: 32,
+                    fontWeight: FontWeight.bold, // Negritas
+                    decoration: TextDecoration.underline, // Subrayado
+                  ),
                 ),
               ],
             ),
